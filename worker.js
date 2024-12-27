@@ -1,14 +1,3 @@
-// wrangler.toml configuration
-/**
- * Add to your wrangler.toml:
- * [vars]
- * DISCORD_BOT_TOKEN = "your_bot_token"
- * MUSIC_URL_1 = "your_music_url_1"
- * MUSIC_URL_2 = "your_music_url_2"
- * BACKGROUND_VIDEO_URL = "your_video_url"
- * CURSOR_URL = "your_cursor_url"
- */
-
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
